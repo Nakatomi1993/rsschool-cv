@@ -3,6 +3,9 @@
   padding:0;
   font-family: 'Roboto', sans-serif;
 }
+html{
+  scroll-behavior: smooth;
+}
 li{
   list-style-type: none;
 }
@@ -61,10 +64,10 @@ h1,h2,h3{
   color: #343434;
 }
 .name_contacts h2 {
-  padding: 30px 0 20px 0;
+  padding: 30px 0 0px 0;
 }
 .name_contacts h3{
-  padding: 15px 0 0 0;
+  padding: 35px 0 0 0;
 }
 .name_contacts h3 a{
   color: #646363;
@@ -82,17 +85,31 @@ h1,h2,h3{
   width: 390px;
   box-shadow: 40px 41px 8px -10px rgb(37 39 39 / 56%);
 }
-.about-me .container{
-  display: flex;
-  justify-content: space-between;
-}
 .block{
   width: 500px;
   padding: 50px 0 50px 0;
 }
+.block-one{
+  display: flex;
+  justify-content: space-between;
+}
+.about-me h2{
+  padding: 100px 0 30px 0px;
+  color: #494949;
+}
+.about-me p{
+  color: #898282;
+}
+pre{
+  background-color: #e1e1e1;
+  padding: 30px 0 0 0;
+  box-shadow: 30px 31px 8px -10px rgb(37 39 39 / 56%);
+  color: #626262;
+}
 .footer{
   background: linear-gradient(45deg, rgb(108, 114, 113), rgb(26, 28, 28));
   box-shadow: 0px 9px 28px 0px rgb(41 81 112 / 52%);
+  margin: 100px 0 0 0;
 }
 .footer .container{
   display: flex;
@@ -101,6 +118,41 @@ h1,h2,h3{
 .social ul{
   display: flex;
   justify-content: space-between;
+  width: 320px;
+  padding: 60px 0 0 0;
+
+}
+.social ul li a{
+  padding: 25px 50px 10px 10px;
+  background: url("assets/img/social.png") no-repeat;
+
+}
+#telegramm{
+  background-position: 0px 0px;
+}
+#instagramm{
+  background-position: -50px 0px;
+}
+#VK{
+  background-position: -110px 0px;
+}
+#gitHub{
+  background-position: -170px 0px;
+}
+#telegramm:hover,
+#instagramm:hover,
+#VK:hover,
+#gitHub:hover{
+  opacity: .7;
+  transition-duration: .2s;
+}
+.footer p{
+  padding: 50px 0 50px 0;
+  color: #c9c9c9;
+  text-transform: uppercase;
+}
+.footer img{
+  padding: 15px 0 0 0px;
 }
 
 
